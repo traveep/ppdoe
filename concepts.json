@@ -1,0 +1,252 @@
+[
+  {
+    "id": "A1",
+    "name": "pesticide residue contamination",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "E1",
+    "name": "chemical contaminant bioaccumulation",
+    "domain": "Environment"
+  },
+  {
+    "id": "A2",
+    "name": "agricultural water use",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "E2",
+    "name": "groundwater aquifer depletion",
+    "domain": "Environment"
+  },
+  {
+    "id": "A3",
+    "name": "pollinator habitat loss",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "E3",
+    "name": "biodiversity species extinction",
+    "domain": "Environment"
+  },
+  {
+    "id": "A4",
+    "name": "soil carbon sequestration",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "E4",
+    "name": "atmospheric carbon dioxide concentration",
+    "domain": "Environment"
+  },
+  {
+    "id": "A5",
+    "name": "agroforestry land use",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "E5",
+    "name": "deforestation tropical forest",
+    "domain": "Environment"
+  },
+  {
+    "id": "A6",
+    "name": "aquaculture fish farming",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "H1",
+    "name": "antibiotic resistance surveillance",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "A7",
+    "name": "food supply chain logistics",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "H2",
+    "name": "pediatric nutrition intervention",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "A8",
+    "name": "plant disease surveillance",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "H3",
+    "name": "public health surveillance system",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "A9",
+    "name": "seed genetic modification",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "H4",
+    "name": "precision medicine genomic targeting",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "A10",
+    "name": "farm subsidy policy",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "S1",
+    "name": "income inequality Gini coefficient",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "A11",
+    "name": "crop yield variability",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "S2",
+    "name": "food insecurity household level",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "A12",
+    "name": "agricultural labor migration",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "S3",
+    "name": "rural urban economic divide",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "A13",
+    "name": "rural smallholder income",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "S4",
+    "name": "poverty alleviation microfinance",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "E6",
+    "name": "air quality particulate matter",
+    "domain": "Environment"
+  },
+  {
+    "id": "H5",
+    "name": "chronic disease self-management",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "E7",
+    "name": "urban heat island effect",
+    "domain": "Environment"
+  },
+  {
+    "id": "H6",
+    "name": "emergency department crowding",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "E8",
+    "name": "drought frequency projection",
+    "domain": "Environment"
+  },
+  {
+    "id": "H7",
+    "name": "maternal mortality risk factor",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "E9",
+    "name": "freshwater availability stress",
+    "domain": "Environment"
+  },
+  {
+    "id": "H8",
+    "name": "infectious disease contact tracing",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "E10",
+    "name": "carbon emission trading",
+    "domain": "Environment"
+  },
+  {
+    "id": "S5",
+    "name": "carbon tax distributional effect",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "E11",
+    "name": "renewable energy transition",
+    "domain": "Environment"
+  },
+  {
+    "id": "S6",
+    "name": "labor market automation displacement",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "E12",
+    "name": "ecosystem restoration practice",
+    "domain": "Environment"
+  },
+  {
+    "id": "S7",
+    "name": "climate adaptation funding equity",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "E13",
+    "name": "sea level rise projection",
+    "domain": "Environment"
+  },
+  {
+    "id": "S8",
+    "name": "disaster recovery economic resilience",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "H9",
+    "name": "social determinants of health",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "S9",
+    "name": "neighborhood segregation index",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "H10",
+    "name": "health insurance coverage gap",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "S10",
+    "name": "health expenditure household burden",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "H11",
+    "name": "mental health service access",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "S11",
+    "name": "unemployment benefit duration",
+    "domain": "Socioeconomics"
+  },
+  {
+    "id": "H12",
+    "name": "health equity racial disparity",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "S12",
+    "name": "racial discrimination employment",
+    "domain": "Socioeconomics"
+  }
+]

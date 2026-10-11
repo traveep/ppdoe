@@ -1,0 +1,9 @@
+INSTRUCTIONS FOR THE SECOND-RATER SHEET
+
+Please rate each pair independently. Mark S (supported), U (unsupported), or I (insufficient). Do not leave a row blank.
+
+Mark S only if all three hold: the labels are in different domains; one is a mechanism, exposure, or policy and the other is an outcome; and you can state the link without relying on a shared theme word. A shared word alone is not enough.
+
+U means the labels are in different domains but the relationship does not hold. I means the labels do not provide enough information to decide.
+
+Please do not search for scores or the answer key. Send back the completed CSV.

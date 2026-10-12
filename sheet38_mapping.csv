@@ -1,0 +1,39 @@
+sheet_row,label_a,label_b,on_25_key,reader1_K,reader2_T,in_79_sample,G,S,N,majority
+1,agricultural labor migration,labor market automation displacement,0,S,S,1,U,S,S,S
+2,agricultural labor migration,rural urban economic divide,1,U,U,0,,,,
+3,agricultural water use,freshwater availability stress,0,S,S,1,S,S,S,S
+4,agricultural water use,groundwater aquifer depletion,1,S,S,1,U,U,S,U
+5,agroforestry land use,deforestation tropical forest,1,S,S,1,U,U,S,U
+6,crop yield variability,food insecurity household level,1,U,S,1,U,U,S,U
+7,crop yield variability,pediatric nutrition intervention,0,I,I,1,U,U,I,U
+8,farm subsidy policy,income inequality Gini coefficient,1,U,I,1,U,U,S,U
+9,farm subsidy policy,poverty alleviation microfinance,0,U,S,1,U,S,I,3-WAY
+10,food supply chain logistics,pediatric nutrition intervention,1,I,I,1,U,I,I,I
+11,plant disease surveillance,public health surveillance system,1,S,S,1,S,U,S,S
+12,plant disease surveillance,social determinants of health,0,U,S,1,S,U,S,S
+13,air quality particulate matter,chronic disease self-management,1,I,S,0,,,,
+14,air quality particulate matter,pesticide residue contamination,0,U,S,1,S,I,S,S
+15,atmospheric carbon dioxide concentration,carbon tax distributional effect,0,I,S,1,U,I,I,I
+16,atmospheric carbon dioxide concentration,soil carbon sequestration,0,S,I,0,,,,
+17,biodiversity species extinction,pollinator habitat loss,0,S,S,1,U,S,S,S
+18,carbon emission trading,carbon tax distributional effect,1,S,S,1,U,S,S,S
+19,chemical contaminant bioaccumulation,pesticide residue contamination,0,S,S,1,S,S,I,S
+20,drought frequency projection,maternal mortality risk factor,1,I,U,0,,,,
+21,freshwater availability stress,infectious disease contact tracing,1,S,I,0,,,,
+22,antibiotic resistance surveillance,aquaculture fish farming,0,I,U,1,S,U,S,S
+23,chronic disease self-management,plant disease surveillance,0,I,I,1,S,I,U,3-WAY
+24,emergency department crowding,urban heat island effect,0,I,S,0,,,,
+25,health equity racial disparity,racial discrimination employment,1,U,S,0,,,,
+26,health insurance coverage gap,plant disease surveillance,0,I,S,1,I,I,U,I
+27,infectious disease contact tracing,plant disease surveillance,0,I,U,1,S,I,U,3-WAY
+28,mental health service access,plant disease surveillance,0,I,U,1,S,I,U,3-WAY
+29,mental health service access,unemployment benefit duration,1,U,S,0,,,,
+30,precision medicine genomic targeting,seed genetic modification,0,S,S,1,U,U,U,U
+31,climate adaptation funding equity,ecosystem restoration practice,0,I,S,0,,,,
+32,disaster recovery economic resilience,sea level rise projection,0,I,S,1,U,S,S,S
+33,food insecurity household level,food supply chain logistics,0,I,S,1,U,U,S,U
+34,food insecurity household level,pediatric nutrition intervention,0,I,I,1,U,U,S,U
+35,health expenditure household burden,health insurance coverage gap,0,S,S,1,U,S,S,S
+36,labor market automation displacement,renewable energy transition,0,I,I,1,S,I,U,3-WAY
+37,neighborhood segregation index,social determinants of health,0,I,S,0,,,,
+38,poverty alleviation microfinance,rural smallholder income,0,S,S,1,S,S,S,S

@@ -1,0 +1,80 @@
+pair_id,stratum,label_a,label_b,Gerard,Seon,Naomi,Kerwyn_excluded
+1,selected_tau050,carbon emission trading,carbon tax distributional effect,U,S,S,S
+2,selected_tau050,plant disease surveillance,public health surveillance system,S,U,S,S
+3,selected_tau050,agricultural labor migration,labor market automation displacement,U,S,S,S
+4,selected_tau050,atmospheric carbon dioxide concentration,carbon tax distributional effect,U,I,I,U
+5,selected_tau050,chronic disease self-management,plant disease surveillance,S,I,U,I
+6,selected_tau050,food insecurity household level,food supply chain logistics,U,U,S,I
+7,selected_tau050,infectious disease contact tracing,plant disease surveillance,S,I,U,U
+8,selected_tau050,agricultural water use,freshwater availability stress,S,S,S,S
+9,selected_tau050,agricultural water use,groundwater aquifer depletion,U,U,S,S
+10,selected_tau050,agroforestry land use,deforestation tropical forest,U,U,S,S
+11,selected_tau050,air quality particulate matter,pesticide residue contamination,S,I,S,U
+12,selected_tau050,biodiversity species extinction,pollinator habitat loss,U,S,S,S
+13,selected_tau050,chemical contaminant bioaccumulation,pesticide residue contamination,S,S,I,S
+14,selected_tau050,crop yield variability,food insecurity household level,U,U,S,U
+15,selected_tau050,crop yield variability,pediatric nutrition intervention,U,U,I,U
+16,selected_tau050,disaster recovery economic resilience,sea level rise projection,U,S,S,U
+17,selected_tau050,farm subsidy policy,income inequality Gini coefficient,U,U,S,I
+18,selected_tau050,farm subsidy policy,poverty alleviation microfinance,U,S,I,S
+19,selected_tau050,food insecurity household level,pediatric nutrition intervention,U,U,S,S
+20,selected_tau050,food supply chain logistics,pediatric nutrition intervention,U,I,I,S
+21,selected_tau050,health insurance coverage gap,plant disease surveillance,I,I,U,I
+22,selected_tau050,mental health service access,plant disease surveillance,S,I,U,I
+23,selected_tau050,plant disease surveillance,social determinants of health,S,U,S,S
+24,selected_tau050,precision medicine genomic targeting,seed genetic modification,U,U,U,U
+25,CONFOUNDED_rest,health expenditure household burden,health insurance coverage gap,U,S,S,S
+26,CONFOUNDED_rest,health expenditure household burden,public health surveillance system,I,I,S,S
+27,CONFOUNDED_rest,health expenditure household burden,social determinants of health,I,S,S,S
+28,CONFOUNDED_rest,health expenditure household burden,mental health service access,U,S,S,S
+29,CONFOUNDED_rest,chronic disease self-management,health expenditure household burden,U,U,S,S
+30,CONFOUNDED_rest,health equity racial disparity,plant disease surveillance,I,I,U,I
+31,CONFOUNDED_rest,health expenditure household burden,infectious disease contact tracing,I,U,S,S
+32,CONFOUNDED_rest,health expenditure household burden,plant disease surveillance,I,I,U,U
+33,PROPOSED,antibiotic resistance surveillance,health expenditure household burden,U,I,S,S
+34,PROPOSED,aquaculture fish farming,chronic disease self-management,I,I,I,U
+35,PROPOSED,aquaculture fish farming,drought frequency projection,I,I,S,U
+36,PROPOSED,aquaculture fish farming,mental health service access,U,I,U,S
+37,PROPOSED,aquaculture fish farming,social determinants of health,U,I,I,S
+38,PROPOSED,climate adaptation funding equity,maternal mortality risk factor,U,I,U,I
+39,PROPOSED,health expenditure household burden,maternal mortality risk factor,U,U,S,S
+40,PROPOSED,neighborhood segregation index,urban heat island effect,U,I,U,I
+41,PROPOSED,agricultural labor migration,racial discrimination employment,U,I,S,S
+42,PROPOSED,aquaculture fish farming,health expenditure household burden,U,U,U,U
+43,PROPOSED,chronic disease self-management,racial discrimination employment,I,I,U,U
+44,PROPOSED,climate adaptation funding equity,plant disease surveillance,I,S,S,U
+45,PROPOSED,health insurance coverage gap,racial discrimination employment,U,S,U,S
+46,PROPOSED,public health surveillance system,racial discrimination employment,U,U,U,U
+47,PROPOSED,racial discrimination employment,social determinants of health,I,U,S,S
+48,MATCHED,antibiotic resistance surveillance,plant disease surveillance,I,U,U,U
+49,MATCHED,carbon emission trading,soil carbon sequestration,I,S,S,S
+50,MATCHED,carbon tax distributional effect,soil carbon sequestration,I,U,S,U
+51,MATCHED,rural smallholder income,rural urban economic divide,U,S,S,S
+52,MATCHED,health equity racial disparity,health expenditure household burden,S,S,S,S
+53,MATCHED,agricultural labor migration,renewable energy transition,S,I,U,I
+54,MATCHED,agricultural labor migration,unemployment benefit duration,S,S,S,S
+55,MATCHED,antibiotic resistance surveillance,aquaculture fish farming,S,U,S,S
+56,MATCHED,ecosystem restoration practice,pollinator habitat loss,S,S,S,S
+57,MATCHED,labor market automation displacement,renewable energy transition,S,I,U,I
+58,MATCHED,maternal mortality risk factor,plant disease surveillance,S,I,U,U
+59,MATCHED,poverty alleviation microfinance,rural smallholder income,S,S,S,S
+60,REJECTED,air quality particulate matter,health equity racial disparity,S,I,U,S
+61,REJECTED,carbon emission trading,health insurance coverage gap,S,I,U,S
+62,REJECTED,chemical contaminant bioaccumulation,farm subsidy policy,I,I,I,S
+63,REJECTED,chemical contaminant bioaccumulation,food supply chain logistics,I,I,S,U
+64,REJECTED,chemical contaminant bioaccumulation,neighborhood segregation index,S,I,U,S
+65,REJECTED,crop yield variability,deforestation tropical forest,I,U,I,S
+66,REJECTED,disaster recovery economic resilience,maternal mortality risk factor,S,I,U,S
+67,REJECTED,ecosystem restoration practice,food insecurity household level,S,I,I,S
+68,REJECTED,farm subsidy policy,public health surveillance system,S,I,U,I
+69,REJECTED,food supply chain logistics,freshwater availability stress,S,I,S,S
+70,REJECTED,food supply chain logistics,infectious disease contact tracing,S,I,U,I
+71,REJECTED,food supply chain logistics,unemployment benefit duration,U,I,U,S
+72,REJECTED,freshwater availability stress,rural smallholder income,U,I,I,S
+73,REJECTED,health insurance coverage gap,rural urban economic divide,U,S,S,S
+74,REJECTED,labor market automation displacement,maternal mortality risk factor,U,I,U,I
+75,REJECTED,labor market automation displacement,soil carbon sequestration,I,I,U,U
+76,REJECTED,mental health service access,sea level rise projection,U,I,U,U
+77,REJECTED,poverty alleviation microfinance,public health surveillance system,I,I,S,S
+78,REJECTED,racial discrimination employment,renewable energy transition,U,I,U,U
+79,REJECTED,renewable energy transition,unemployment benefit duration,U,I,U,U

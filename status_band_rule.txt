@@ -1,0 +1,66 @@
+STATUS BAND RULE — FROZEN SPECIFICATION
+=======================================
+Study: The Ontological Scaffold — lexicon-guided proposal evaluation
+Applies to: all 937 cross-domain candidate pairs (50 labels, 4 domains)
+Frozen before the reader study; unchanged since. This is the rule that
+produced Table 6 (status bands), the promiscuity flags, and the strata
+used for the 79-pair sample.
+
+INPUTS (per pair)
+-----------------
+  score_combined = 0.65 * theme_Jaccard + 0.35 * token_Jaccard
+      (theme and token Jaccard from the frozen THEME_LEX v1 bag derived
+       from the 50 labels; empty-overlap convention: Jaccard of two empty
+       sets = 0, no additional penalty)
+
+  shared_themes  = themes carried by BOTH labels of the pair
+
+STEP 1 — PROMISCUITY FLAG (gold-free)
+-------------------------------------
+  Count, over all 937 pairs, how many pairs with score_combined >= 0.40
+  carry each theme. A theme is PROMISCUOUS if it is carried by >= 8 such
+  pairs.
+  Result on the canonical file: PROMISCUOUS = {amr_onehealth, health_access}.
+
+STEP 2 — STATUS ASSIGNMENT (gold-free; evaluated in this order)
+---------------------------------------------------------------
+  Let s = score_combined, T = set of shared themes.
+
+  1. if s >= 0.40 and (T contains a PROMISCUOUS theme): CONFOUNDED
+  2. else if s < 0.10 and T is empty:                    REJECTED
+  3. else if s < 0.25:                                   PROPOSED
+  4. else if s < 0.40:                                   MATCHED
+  5. else if s < 0.50:                                   CANDIDATE
+  6. else if s < 0.70:                                   VALIDATED
+  7. else (s >= 0.70):                                   CONFIRMED
+
+  DEPRECATED is defined but unused on a single snapshot: it is reserved
+  for retraction under later contradicting evidence, an operation this
+  study does not exercise.
+
+NOTES
+-----
+  * Rule order matters: the CONFOUNDED override is checked before the
+    score bands, so a promiscuous-theme pair with s >= 0.40 is CONFOUNDED
+    even if its score would fall in VALIDATED or CONFIRMED.
+  * Status names are score-band labels, not evidential judgements.
+    CONFIRMED does not mean clinically or causally true.
+  * Gold membership is not an input to this rule; it is used only to
+    compute precision per band after assignment.
+
+KNOWN DIVERGENCE (documented, not silent)
+-----------------------------------------
+  The released canonical_937_scores.csv carries a status column from an
+  earlier boundary convention; 52 of 937 rows differ from the rule above
+  (mostly PROPOSED/MATCHED and REJECTED/PROPOSED boundary rows, and 8
+  CONFOUNDED rows). Table 6 in the manuscript follows THIS rule, which
+  was verified to reproduce the published counts (CONFIRMED 4, VALIDATED
+  14, CONFOUNDED 14, MATCHED 24, PROPOSED 37, REJECTED 844) from the same
+  file. The stratified sample (Section 4.6) was drawn using the paper-rule
+  strata computed from this rule.
+
+VERIFICATION
+------------
+  reproduce with: regen_scores.py / recompute_all.py (workspace scripts)
+  against canonical_937_scores.csv; the sanity check asserts the band
+  counts above.

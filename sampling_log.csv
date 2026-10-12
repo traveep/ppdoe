@@ -1,0 +1,80 @@
+stratum,label_a,label_b,domain_a,domain_b
+selected_tau050,carbon emission trading,carbon tax distributional effect,Environment,Socioeconomics
+selected_tau050,plant disease surveillance,public health surveillance system,Agriculture,Healthcare
+selected_tau050,agricultural labor migration,labor market automation displacement,Agriculture,Socioeconomics
+selected_tau050,atmospheric carbon dioxide concentration,carbon tax distributional effect,Environment,Socioeconomics
+selected_tau050,chronic disease self-management,plant disease surveillance,Healthcare,Agriculture
+selected_tau050,food insecurity household level,food supply chain logistics,Socioeconomics,Agriculture
+selected_tau050,infectious disease contact tracing,plant disease surveillance,Healthcare,Agriculture
+selected_tau050,agricultural water use,freshwater availability stress,Agriculture,Environment
+selected_tau050,agricultural water use,groundwater aquifer depletion,Agriculture,Environment
+selected_tau050,agroforestry land use,deforestation tropical forest,Agriculture,Environment
+selected_tau050,air quality particulate matter,pesticide residue contamination,Environment,Agriculture
+selected_tau050,biodiversity species extinction,pollinator habitat loss,Environment,Agriculture
+selected_tau050,chemical contaminant bioaccumulation,pesticide residue contamination,Environment,Agriculture
+selected_tau050,crop yield variability,food insecurity household level,Agriculture,Socioeconomics
+selected_tau050,crop yield variability,pediatric nutrition intervention,Agriculture,Healthcare
+selected_tau050,disaster recovery economic resilience,sea level rise projection,Socioeconomics,Environment
+selected_tau050,farm subsidy policy,income inequality Gini coefficient,Agriculture,Socioeconomics
+selected_tau050,farm subsidy policy,poverty alleviation microfinance,Agriculture,Socioeconomics
+selected_tau050,food insecurity household level,pediatric nutrition intervention,Socioeconomics,Healthcare
+selected_tau050,food supply chain logistics,pediatric nutrition intervention,Agriculture,Healthcare
+selected_tau050,health insurance coverage gap,plant disease surveillance,Healthcare,Agriculture
+selected_tau050,mental health service access,plant disease surveillance,Healthcare,Agriculture
+selected_tau050,plant disease surveillance,social determinants of health,Agriculture,Healthcare
+selected_tau050,precision medicine genomic targeting,seed genetic modification,Healthcare,Agriculture
+CONFOUNDED_rest,health expenditure household burden,health insurance coverage gap,Socioeconomics,Healthcare
+CONFOUNDED_rest,health expenditure household burden,public health surveillance system,Socioeconomics,Healthcare
+CONFOUNDED_rest,health expenditure household burden,social determinants of health,Socioeconomics,Healthcare
+CONFOUNDED_rest,health expenditure household burden,mental health service access,Socioeconomics,Healthcare
+CONFOUNDED_rest,chronic disease self-management,health expenditure household burden,Healthcare,Socioeconomics
+CONFOUNDED_rest,health equity racial disparity,plant disease surveillance,Healthcare,Agriculture
+CONFOUNDED_rest,health expenditure household burden,infectious disease contact tracing,Socioeconomics,Healthcare
+CONFOUNDED_rest,health expenditure household burden,plant disease surveillance,Socioeconomics,Agriculture
+PROPOSED,antibiotic resistance surveillance,health expenditure household burden,Healthcare,Socioeconomics
+PROPOSED,aquaculture fish farming,chronic disease self-management,Agriculture,Healthcare
+PROPOSED,aquaculture fish farming,drought frequency projection,Agriculture,Environment
+PROPOSED,aquaculture fish farming,mental health service access,Agriculture,Healthcare
+PROPOSED,aquaculture fish farming,social determinants of health,Agriculture,Healthcare
+PROPOSED,climate adaptation funding equity,maternal mortality risk factor,Socioeconomics,Healthcare
+PROPOSED,health expenditure household burden,maternal mortality risk factor,Socioeconomics,Healthcare
+PROPOSED,neighborhood segregation index,urban heat island effect,Socioeconomics,Environment
+PROPOSED,agricultural labor migration,racial discrimination employment,Agriculture,Socioeconomics
+PROPOSED,aquaculture fish farming,health expenditure household burden,Agriculture,Socioeconomics
+PROPOSED,chronic disease self-management,racial discrimination employment,Healthcare,Socioeconomics
+PROPOSED,climate adaptation funding equity,plant disease surveillance,Socioeconomics,Agriculture
+PROPOSED,health insurance coverage gap,racial discrimination employment,Healthcare,Socioeconomics
+PROPOSED,public health surveillance system,racial discrimination employment,Healthcare,Socioeconomics
+PROPOSED,racial discrimination employment,social determinants of health,Socioeconomics,Healthcare
+MATCHED,antibiotic resistance surveillance,plant disease surveillance,Healthcare,Agriculture
+MATCHED,carbon emission trading,soil carbon sequestration,Environment,Agriculture
+MATCHED,carbon tax distributional effect,soil carbon sequestration,Socioeconomics,Agriculture
+MATCHED,rural smallholder income,rural urban economic divide,Agriculture,Socioeconomics
+MATCHED,health equity racial disparity,health expenditure household burden,Healthcare,Socioeconomics
+MATCHED,agricultural labor migration,renewable energy transition,Agriculture,Environment
+MATCHED,agricultural labor migration,unemployment benefit duration,Agriculture,Socioeconomics
+MATCHED,antibiotic resistance surveillance,aquaculture fish farming,Healthcare,Agriculture
+MATCHED,ecosystem restoration practice,pollinator habitat loss,Environment,Agriculture
+MATCHED,labor market automation displacement,renewable energy transition,Socioeconomics,Environment
+MATCHED,maternal mortality risk factor,plant disease surveillance,Healthcare,Agriculture
+MATCHED,poverty alleviation microfinance,rural smallholder income,Socioeconomics,Agriculture
+REJECTED,air quality particulate matter,health equity racial disparity,Environment,Healthcare
+REJECTED,carbon emission trading,health insurance coverage gap,Environment,Healthcare
+REJECTED,chemical contaminant bioaccumulation,farm subsidy policy,Environment,Agriculture
+REJECTED,chemical contaminant bioaccumulation,food supply chain logistics,Environment,Agriculture
+REJECTED,chemical contaminant bioaccumulation,neighborhood segregation index,Environment,Socioeconomics
+REJECTED,crop yield variability,deforestation tropical forest,Agriculture,Environment
+REJECTED,disaster recovery economic resilience,maternal mortality risk factor,Socioeconomics,Healthcare
+REJECTED,ecosystem restoration practice,food insecurity household level,Environment,Socioeconomics
+REJECTED,farm subsidy policy,public health surveillance system,Agriculture,Healthcare
+REJECTED,food supply chain logistics,freshwater availability stress,Agriculture,Environment
+REJECTED,food supply chain logistics,infectious disease contact tracing,Agriculture,Healthcare
+REJECTED,food supply chain logistics,unemployment benefit duration,Agriculture,Socioeconomics
+REJECTED,freshwater availability stress,rural smallholder income,Environment,Agriculture
+REJECTED,health insurance coverage gap,rural urban economic divide,Healthcare,Socioeconomics
+REJECTED,labor market automation displacement,maternal mortality risk factor,Socioeconomics,Healthcare
+REJECTED,labor market automation displacement,soil carbon sequestration,Socioeconomics,Agriculture
+REJECTED,mental health service access,sea level rise projection,Healthcare,Environment
+REJECTED,poverty alleviation microfinance,public health surveillance system,Socioeconomics,Healthcare
+REJECTED,racial discrimination employment,renewable energy transition,Socioeconomics,Environment
+REJECTED,renewable energy transition,unemployment benefit duration,Environment,Socioeconomics
